@@ -12,16 +12,14 @@ package boletin4_3;
 public class Circulo {
     
     private double radio;
-    private double Pi;
+    private double Pi = 3.14;
     
     public Circulo(){
         radio = 0;
-        Pi = 3.14;
     }
     
     public Circulo(double r){
         radio = r;
-        Pi = 3.14;
     }
     
     public double getRadio(){
